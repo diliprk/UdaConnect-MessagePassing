@@ -1,0 +1,5 @@
+All the available API endpoints are available at localhost:30001/ (also the new ones available to be requested through POST)
+
+- To make a request for GRPC (person creation) you can use Postman and send a JSON data through localhost:30000/personcreate
+
+- To make a request for Kafka (location creation) you can use Postman and send a JSON data through localhost:30000/locationcreate

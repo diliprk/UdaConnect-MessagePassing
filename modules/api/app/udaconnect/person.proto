@@ -1,0 +1,18 @@
+syntax = "proto3";
+
+// service, encode a plain text
+service PersonService {
+    // request a service of encode
+    rpc storePerson(persontx) returns (resp) {}
+}
+
+
+message persontx {
+    string first_name = 1;
+    string last_name = 2;
+    string company_name = 3;
+}
+
+message resp {
+    string respText = 1;    
+}
